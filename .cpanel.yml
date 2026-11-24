@@ -1,0 +1,5 @@
+ deployment:
+    tasks:
+     - export DEPLOYPATH=/home/slanik/public_html/slanik_solski_oglasnik
+     - /bin/cp -R * $DEPLOYPATH
+
